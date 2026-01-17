@@ -1,0 +1,23 @@
+#SchematicWorldGenerator config
+
+#General settings for saving schematics
+#When you want to include all entities, simply put "*"
+Saving:
+  entity-types:
+    - ARMOR_STAND
+    - PAINTING
+    - ITEM_FRAME
+    - ITEM_DISPLAY
+    - BLOCK_DISPLAY
+    - TEXT_DISPLAY
+
+
+#What worlds should be created based on templates
+Worlds:
+  test:
+    name: testWorld
+    schematic: template
+    biome: plains
+    spacing-chunks: 1
+    spacing-material: sand
+    spacing-height: 0

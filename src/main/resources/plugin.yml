@@ -1,0 +1,10 @@
+name: WorldSchematics
+version: '1.1-SNAPSHOT'
+main: de.jakob.worldschematics.WorldSchematics
+api-version: '1.21'
+authors: [ EinfachJaakob ]
+load: POSTWORLD
+commands:
+  worldschematic:
+    description: Manage world schematics.
+    aliases: [ws]
